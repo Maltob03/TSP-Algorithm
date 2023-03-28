@@ -1,8 +1,8 @@
 # TSP-Algorithm
 
-##Functions
+## Functions
 
-###Total Distance
+### Total Distance
 
 ```swift
 func totalDistance(_ cities: [CLLocation]) -> CLLocationDistance {
@@ -32,7 +32,7 @@ Finally, the function returns the accumulated total distance between all of the 
 
 
 
-###Permutation
+### Permutation
 
 
 ```swift
@@ -67,7 +67,7 @@ The function then iterates over each sub-permutation in subPermutations using a 
 
 Finally, the function returns the result array containing all possible permutations of the input array.
 
-###ShortestPath
+### ShortestPath
 
 ```swift
 func shortestPath(cities: [(String, CLLocation)]) -> (path: [CLLocation], distance: CLLocationDistance)? {
@@ -108,7 +108,7 @@ The function keeps track of the shortest path and its distance seen so far by in
 After all permutations have been processed, the function adds a line connecting the last city to the first city to complete the shortest path, and returns the shortest path and its distance as a tuple
 
 
-##Complexity
+## Complexity
 
 The time complexity of the shortestPath function is O(n!), where n is the number of cities. This is because the function generates all possible permutations of the cities, which grows as n!, and for each permutation, it computes the total distance of the path, which takes O(n) time using the totalDistance function.
 
