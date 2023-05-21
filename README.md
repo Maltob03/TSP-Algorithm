@@ -2,7 +2,7 @@
   <br>
   <a><img src="https://icons-for-free.com/iconfiles/png/512/code+logo+swift+icon-1320184804561081764.png" width="200"></a>
   <br>
-  GASP
+  Travel Salesman Problem
   <br>
 </h1>
 
